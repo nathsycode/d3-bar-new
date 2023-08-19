@@ -1,0 +1,24 @@
+$apricot: #ffcdb2ff;
+$melon: #ffb4a2ff;
+$salmon-pink: #e5989bff;
+$old-rose: #b5838dff;
+$dim-gray: #6d6875ff;
+
+
+$color: $apricot;
+$color-background: $dim-gray;
+$color-border: $melon;
+$color-accent-1: $salmon-pink;
+$color-accent-2: $old-rose;
+
+body {
+  color: $color;
+  background: $color-background;
+  
+}
+
+.svg-container {
+  border: 2px solid $color-border
+}
+
+
